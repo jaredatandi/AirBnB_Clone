@@ -24,10 +24,10 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="airbnb.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>AirBnB clone [The console]</b></h3>
 
 </div>
 
@@ -59,11 +59,15 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [your_project_name] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**[AirBnB_Clone_v1]** is a clone that uses the console to create, update, destroy, and append data used through data serialization.
+It will be used to build on the database for the web app.
 
 ## 🛠 Built With <a name="built-with"></a>
+- Python
+- Json
+- C
+- Bash
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -96,9 +100,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Create data]**
+- **[Save the data to a persistent file]**
+- **[Update the persistent file]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,9 +110,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Coming Soon](#)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,47 +118,38 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
+
+```sh
+./console.py
+```
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
-
 ```sh
- gem install rails
+ gem python3 
 ```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:jaredatandi/AirBnB_clone_v1:
 ```
---->
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
 ```sh
-  cd my-project
-  gem install
+  cd AirBnB_clone_v1 
+  python3 install 
 ```
---->
 
 ### Usage
 
@@ -174,17 +167,16 @@ Example command:
 
 To run tests, run the following command:
 
-<!--
 Example command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+   pytest -m -v test
 ```
---->
 
 ### Deployment
 
 You can deploy this project using:
+> Coming soon
 
 <!--
 Example:
@@ -200,19 +192,13 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/jaredatandi)
+- Twitter: [@twitterhandle](https://twitter.com/one_good_man)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/engineerjaredatandi)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
