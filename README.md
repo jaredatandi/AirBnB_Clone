@@ -59,11 +59,11 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [your_project_name] <a name="about-project"></a>
 
-
 **[AirBnB_Clone_v1]** is a clone that uses the console to create, update, destroy, and append data used through data serialization.
 It will be used to build on the database for the web app.
 
 ## 🛠 Built With <a name="built-with"></a>
+
 - Python
 - Json
 - C
@@ -118,10 +118,10 @@ It will be used to build on the database for the web app.
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
 To get a local copy up and running, follow these steps.
 
 ```sh
+git clone [this repo]
 ./console.py
 ```
 
@@ -130,8 +130,18 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 ```sh
- gem python3 
+./console.py
 ```
+
+![interactive mode](./images/interactive.png 'opt title')
+
+or
+
+```sh
+echo 'help' | ./console.py
+```
+
+![non-interactive](./images/non-interactive.png)
 
 ### Setup
 
@@ -147,8 +157,8 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd AirBnB_clone_v1 
-  python3 install 
+  cd AirBnB_clone_v1
+  python3 install
 ```
 
 ### Usage
@@ -176,6 +186,7 @@ Example command:
 ### Deployment
 
 You can deploy this project using:
+
 > Coming soon
 
 <!--
@@ -192,13 +203,11 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/jaredatandi)
 - Twitter: [@twitterhandle](https://twitter.com/one_good_man)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/engineerjaredatandi)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
