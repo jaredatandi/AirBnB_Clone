@@ -1,22 +1,22 @@
 #!/usr/bin/python3
-""" A Base class that I will use for all the
-other classes
+""" The base_model module
 """
 import uuid
 import datetime
-import models
 import copy
+import models
 
 
 class BaseModel:
-    """Base methods and attributes for other classes"""
+    """class BaseModel that defines all common attr/method
+    """
     def __init__(self, *args, **kwargs):
         """
-        Base class constructor
+        Class constructor
 
         Args:
-            args: inputs with no keys
-            kwargs: key value inputs
+            args: non-keyworded argument list
+            kwargs: keyworded argument list with key and values
         """
         if kwargs:
             for keys, value in kwargs.items():
@@ -30,23 +30,23 @@ class BaseModel:
             self.id = str(uuid.uuid4())
             self.created_at = datetime.datetime.now()
             self.updated_at = datetime.datetime.now()
-            models.storage.new(self) 
+            models.storage.new(self)
 
     def __str__(self):
-        """Returns a string of the object
+        """Convert object into a human readable string
         """
         return "[{}] ({}) {}".format(
-                self.___class__.__name__, self.id, selft.__dict__)
+                self.__class__.__name__, self.id, self.__dict__)
 
     def save(self):
-        """Updates the updated_at
-        with the current time
+        """ updates the public instance attribute updated_att
+        witth the current datetime
         """
         self.updated_at = datetime.datetime.now()
         models.storage.save()
 
     def to_dict(self):
-        """Returns a dict representation of all the keys/values of
+        """ Returns a dictionary containing all keys/values of
         __dict__ of the instance.
         """
         newdict = copy.deepcopy(self.__dict__)
